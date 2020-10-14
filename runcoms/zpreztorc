@@ -172,10 +172,11 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 zstyle ':prezto:module:syntax-highlighting' highlighters \
   'main' \
   'brackets' \
-  'pattern' \
-  'line' \
-  'cursor' \
-  'root'
+  'pattern' 
+# \
+#   'line' \
+#   'cursor' \
+#   'root'
 #
 # Set syntax highlighting styles.
 # zstyle ':prezto:module:syntax-highlighting' styles \
