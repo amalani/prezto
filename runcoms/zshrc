@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+if [[ -s "${ZDOTDIR:-$HOME}/Abhishek/github/environment/env.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/Abhishek/github/environment/env.zsh"
+fi
+
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
