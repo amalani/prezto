@@ -16,4 +16,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/Abhishek/github/environment/env.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/Abhishek/github/environment/env.zsh"
 fi
 
+
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Created by `pipx` on 2024-11-22 07:18:52
+export PATH="$PATH:/Users/abhishekm/.local/bin"
